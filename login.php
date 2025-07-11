@@ -6,7 +6,7 @@
 ob_start();
 
 // Start the session. This MUST be the very first executable line.
-session_start();
+//session_start();
 
 // --- Language Selection Logic (for public pages like login) ---
 // This ensures the login page respects language selection even before login
