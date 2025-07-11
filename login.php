@@ -25,12 +25,12 @@ if (file_exists($lang_file)) {
 } 
 // --- Database Connection ---
 $servername = "localhost";
-$username = "root"; // Your MySQL username
-$password = "";     // Your MySQL password
+$username = "kimheang"; // Your MySQL username
+$password = "Seavminh@2024";     // Your MySQL password
 $dbname = "dms_db"; // The database name
 
 // Create connection
-//$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
