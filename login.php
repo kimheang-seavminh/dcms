@@ -24,7 +24,7 @@ if (file_exists($lang_file)) {
     include_once $lang_file;
 } 
 // --- Database Connection ---
-$servername = "192.168.20.13";
+$servername = "192.168.20.13:32163";
 $username = "root"; // Your MySQL username
 $password = "382096a3207028829496cb77202a76d1e76549e0";     // Your MySQL password
 $dbname = "dms_db"; // The database name
